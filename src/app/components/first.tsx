@@ -3,9 +3,12 @@ export default function FirstStep({ back, nextStep }: { back: any, nextStep: any
     <div className="w-96 rounded-md bg-white relative">
       <div className="-z-10 h-96 w-96 rounded-md bg-gray-300 absolute top-80 left-5 opacity-30">
       </div>
+      <div className="-z-10 absolute top-10" style={{ left: "23.2rem" }}>
+        <p style={{ fontSize: "21rem" }} className="strokeme">i</p>
+      </div>
       <div className="flex items-center pb-10 pt-12 text-lg flex-col">
         <p className="font-bold">5G Core installation wizard</p>
-        <div className="flex pb-6 pt-12 flex-col space-y-2 px-8">
+        <div className="flex pb-3 pt-12 flex-col space-y-2 px-8">
           <p className="text-gray-500">PLMN</p>
           <div className="grid gap-1 grid-cols-2 grid-rows-1 pt-2 items-center">
             <p>MCC</p>
@@ -29,7 +32,7 @@ export default function FirstStep({ back, nextStep }: { back: any, nextStep: any
               </div>
             </div>
           </div>
-          <div className="grid gap-4 grid-cols-2 grid-rows-1 pt-12">
+          <div className="grid gap-4 grid-cols-2 grid-rows-1 pt-14">
             {back}
             {nextStep}
           </div>

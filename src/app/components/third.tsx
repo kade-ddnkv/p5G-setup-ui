@@ -1,4 +1,4 @@
-export default function SecondStep({ back, nextStep }: { back: any, nextStep: any }) {
+export default function ThirdStep({ back, nextStep }: { back: any, nextStep: any }) {
   return (
     <div style={{ height: "50vh" }} className="w-96 rounded-md bg-white relative">
       <div style={{ height: "100vh", width: "100vh", overflow: "hidden" }} className="h-full w-full absolute -z-10">
@@ -6,12 +6,12 @@ export default function SecondStep({ back, nextStep }: { back: any, nextStep: an
         </div>
       </div>
       <div className="-z-10 absolute top-5" style={{ left: "23.2rem" }}>
-        <p style={{ fontSize: "21rem", letterSpacing: "-2rem" }} className="strokeme">ii</p>
+        <p style={{ fontSize: "21rem", letterSpacing: "-2rem" }} className="strokeme">iii</p>
       </div>
       <div className="px-8 flex items-center justify-between h-full py-12 text-lg flex-col space-y-10">
-        <p className="w-full">You can configure Base Stations. <br/>It will be connected later.</p>
+        <p className="w-full">You can configure User Equipments. It will be connected later.</p>
         <div className="w-full">
-          <button className="w-full border rounded py-1 hover:bg-gray-50">Base Stations manager</button>
+          <button className="w-full border rounded py-1 hover:bg-gray-50">User Equipment manager</button>
           <p className="w-full mt-2 text-gray-500">You can always access it later.</p>
         </div>
         <div className="w-full grid gap-4 grid-cols-2 grid-rows-1">

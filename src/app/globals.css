@@ -10,3 +10,14 @@
 body {
   background: var(--background-hex)
 }
+
+.strokeme
+{
+    color: #E6EBEF;
+    opacity: 0.5;
+    text-shadow:
+    -1px -1px 0 #e9619c,
+    1px -1px 0 #e9619c,
+    -1px 1px 0 #e9619c,
+    1px 1px 0 #e9619c;  
+}
