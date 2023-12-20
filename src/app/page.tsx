@@ -14,7 +14,6 @@ export default function Home() {
   let back;
   let nextStep;
 
-  console.log(pageNumber)
   if (pageNumber === 1) {
     pageBox = FirstStep;
     back = <p></p>
